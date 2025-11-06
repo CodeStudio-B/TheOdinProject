@@ -82,7 +82,7 @@ header ul {
     font-size: 1.5em;
 }
 .infoBox{
-    border: 2px solid blue;
+    border: 2px solid #5794F7;
     border-radius: 9px;
     width: 120px;
     height: 120px;
@@ -94,7 +94,7 @@ header ul {
 .boxContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* gap: 10px; */
+    gap: 10px;
     width: 40%;
     margin: auto;
     font-size: 0.8em; 
@@ -107,4 +107,21 @@ header ul {
     margin: auto;
     font-size: 0.7em; 
     /* text-wrap:inherit ;   */
+}
+.quoteSect{
+    background-color: #E5E7EB;
+    font-family: "Roboto", sans-serif;   
+    padding-bottom: 50px;
+}
+.quoteText{
+    font-size: 1.5em;
+    width: 40%;
+    margin: auto;
+    padding-top: 60px;
+}
+.quoteAuth{
+    font-weight: 700;
+    text-align: right;
+    margin-right: 400px;
+    padding-top: 20px;
 }
