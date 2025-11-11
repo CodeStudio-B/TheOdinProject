@@ -73,55 +73,105 @@ header ul {
   margin-top: 10px;
 }
 .randomInfo {
-    font-family: "Roboto", sans-serif;
-    padding: 40px;
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
 }
-.infoHeading{
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 1.5em;
+.infoHeading {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 1.5em;
 }
-.infoBox{
-    border: 2px solid #5794F7;
-    border-radius: 9px;
-    width: 120px;
-    height: 120px;
-    padding-left: 30px;
+.infoBox {
+  border: 2px solid #5794f7;
+  border-radius: 9px;
+  width: 120px;
+  height: 120px;
+  padding-left: 30px;
 }
-.infoText{
-    text-wrap: wrap;
+.infoText {
+  text-wrap: wrap;
 }
-.boxContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    width: 40%;
-    margin: auto;
-    font-size: 0.8em; 
-    text-wrap: wrap;
+.boxContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 40%;
+  margin: auto;
+  font-size: 0.8em;
+  text-wrap: wrap;
 }
-.textContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 50%;
-    margin: auto;
-    font-size: 0.7em; 
-    /* text-wrap:inherit ;   */
+.textContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 50%;
+  margin: auto;
+  font-size: 0.7em;
+  /* text-wrap:inherit ;   */
 }
-.quoteSect{
-    background-color: #E5E7EB;
-    font-family: "Roboto", sans-serif;   
-    padding-bottom: 50px;
+.quoteSect {
+  background-color: #e5e7eb;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 50px;
 }
-.quoteText{
-    font-size: 1.5em;
-    width: 40%;
-    margin: auto;
-    padding-top: 60px;
+.quoteText {
+  font-size: 1.5em;
+  width: 40%;
+  margin: auto;
+  padding-top: 60px;
 }
-.quoteAuth{
-    font-weight: 700;
-    text-align: right;
-    margin-right: 400px;
-    padding-top: 20px;
+.quoteAuth {
+  font-weight: 700;
+  text-align: right;
+  margin-right: 400px;
+  padding-top: 20px;
+}
+.CTA {
+  padding: 70px;
+  font-family: "Roboto", sans-serif;
+}
+.ctaWrapper {
+  /* border: thin solid black; */
+  padding: 30px;
+  width: 70%;
+  margin: auto;
+  background-color: #3b82f6;
+  color: #f9faf8;
+  columns: 2;
+  gap: 300px;
+  /* display: grid;
+    grid-template-columns: 4fr 1fr; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.ctaHeader {
+  margin-left: 50px;
+}
+.ctaText {
+  font-size: 0.8em;
+  font-weight: 200;
+  margin-left: 50px;
+}
+.ctaButton {
+  background-color: #3b82f6;
+  border: 2px solid white;
+  color: #f9faf8;
+  border-radius: 8px;
+  padding: 8px;
+  margin-right: 50px;
+}
+.btnText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding: 8px;
+}
+footer {
+  padding: 30px;
+  background-color: #1f2937;
+}
+footer p {
+  color: #f9faf8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  text-align: center;
 }
